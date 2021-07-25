@@ -1,0 +1,185 @@
+body{
+    background-image: url("poto/krem.jfif");
+    background-size: 100% 100%;
+    margin: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.menu{
+    font-family: tahoma;
+    font-weight: bold;
+    height: 60px;
+    width: 100%;
+    background: khaki;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+h1{
+    font-size: 45pt;
+}
+label{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20pt;
+    color: brown;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+}
+
+.menu ul{
+    margin: -8px;
+    padding: 5px;
+    background: none;
+    display: block;
+    float:right;
+    font-size: 13pt;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.menu ul li a{
+    display: block;
+    text-direction: none;
+    padding: 20px;
+    color: brown;
+}
+
+.menu ul li a:hover{
+    display: block;
+    color: coral;
+    background: cornsilk;
+    box-shadow: inset 0px 0px 5px burlywood;
+}
+
+.menu ul li .dropdown{
+    display: none;
+
+}
+
+.menu ul li:hover .dropdown{
+    display: block;
+    background: blanchedalmond;
+    position: absolute;
+    padding: 10px;
+}
+
+.menu ul li:hover .dropdown li{
+    display: block;
+}
+
+.menu ul li:hover .dropdown li a{
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.menu ul li:hover .dropdown li a:hover{
+    background: burlywood;
+    box-shadow: inset 0px opx 5px bisque;
+}
+
+.profil{
+    display: grid;
+    height: 690px;
+    width: 3600px;
+    grid-template-columns: 34% 72%;
+   
+}
+
+.bio{
+    margin-left: 200px;
+    margin-top: 5px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: #FFFAF0;
+    border: 8px solid white;
+}
+
+.bio p{
+    font-size: 18px;
+    line-height: 2;
+    text-align: justify;
+    padding: 5px 10px;
+    text-indent: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.kontak{
+    display: grid;
+    height: 690px;
+    width: 3600px;
+    grid-template-columns: 34% 72%;
+   
+}
+
+.contact{
+    margin-left: 200px;
+    margin-top: 5px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: #FFFAF0;
+    border: 8px solid white;
+}
+
+.contact p{
+    font-size: 18px;
+    line-height: 2;
+    text-align: justify;
+    padding: 5px 10px;
+    text-indent: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Story{
+    display: grid;
+    height: 690px;
+    width: 3600px;
+    grid-template-columns: 34% 72%;
+   
+}
+
+.kisah{
+    margin-left: 200px;
+    margin-top: 5px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: #FFFAF0;
+    border: 8px solid white;
+}
+
+.kisah p{
+    font-size: 18px;
+    line-height: 2;
+    text-align: justify;
+    padding: 5px 10px;
+    text-indent: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    background-color:darkkhaki;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bg-primary{
+    background-color:darkkhaki;
+}
+
+.card-body label{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.table{
+    border-collapse: collapse;
+    margin: auto;
+    width: 800px;
+}
